@@ -1,0 +1,113 @@
+body {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.title {
+  font-size: 60px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  background-color: #acd7ff;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 10px;
+  margin: auto;
+  outline-width: 50px;
+  outline: 4.5px solid #6969697e;
+  margin-top: 25px;
+}
+
+.subtitle {
+  font-size: 45px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  background-color: #acd7ff;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 10px;
+  margin: auto;
+  outline-width: 50px;
+  outline: 4.5px solid #6969697e;
+  margin-top: 25px;
+}
+
+.separator {
+  border-top: 10px solid #6ab7ff;
+  border-radius: 15px;
+  outline: 3px solid #6969697e;
+  width: 90%;
+  margin-top: 30px;
+}
+
+.text {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  background-color: #acd7ff;
+  border-radius: 20px;
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+  outline-width: 50px;
+  outline: 4.5px solid #6969697e;
+  margin-top: 25px;
+}
+
+.text-left {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  background-color: #acd7ff;
+  border-radius: 20px;
+  width: 60%;
+  padding: 10px;
+  margin-left: 650px;
+  outline-width: 50px;
+  outline: 4.5px solid #6969697e;
+  margin-top: 30px;
+}
+
+.rickroll {
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+.rickroll {
+  text-decoration: none;
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.rickroll:hover {
+  color: #ff0000;
+}
+
+.rickrollparent {
+  text-align: center;
+  background: #acd7ff;
+  margin: auto;
+  width: 30%;
+  margin-top: 20px;
+  border-radius: 20px;
+  outline: 4px solid #6969697e;
+  padding: 10px;
+}
+
+.picture-article {
+  width: 500px;
+  margin-left: 100px;
+  outline: 5px solid #6969697e;
+  border-radius: 50px;
+  float: left;
+}
+
+.video {
+  width: 1000px;
+  height: 500px;
+  outline: 5px solid #6969697e;
+  border-radius: 30px;
+}
