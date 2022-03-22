@@ -11,7 +11,10 @@ body {
   background-color: #acd7ff;
   border-radius: 20px;
   width: fit-content;
-  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin: auto;
   outline-width: 50px;
   outline: 4.5px solid #6969697e;
@@ -25,7 +28,10 @@ body {
   background-color: #acd7ff;
   border-radius: 20px;
   width: fit-content;
-  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin: auto;
   outline-width: 50px;
   outline: 4.5px solid #6969697e;
@@ -44,7 +50,7 @@ body {
   font-size: 30px;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-  background-color: #acd7ff;
+  background-color: #d2e9ff;
   border-radius: 20px;
   width: 80%;
   padding: 10px;
@@ -58,7 +64,7 @@ body {
   font-size: 30px;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-  background-color: #acd7ff;
+  background-color: #d2e9ff;
   border-radius: 20px;
   width: 60%;
   padding: 10px;
@@ -112,4 +118,49 @@ body {
   margin: auto;
   outline: 5px solid #6969697e;
   border-radius: 30px;
+}
+
+header {
+  background-image: url("images/dirtbg.jpg");
+  background-repeat: repeat;
+  padding: 20px;
+  margin: 10px;
+  outline: 10px solid #6969697e;
+}
+
+.headermenu {
+  overflow: hidden;
+}
+
+.headermenu a {
+  background-color: #ff11117e;
+  font-size: 50px;
+  text-decoration: none;
+  margin-right: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+.headermenu a:hover {
+  color: #d0e8ff;
+  background: #ff77777e;
+}
+
+.weblogo {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 50px;
+  outline: 5px solid #ff11117e;
+  border-radius: 5px;
+}
+
+.weblogo:hover {
+  outline: 5px solid #ff77777e;
+}
+
+.headermenu_about {
+  float: right;
 }
